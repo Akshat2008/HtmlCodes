@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Form</title>
+</head>
+<body bgcolor="blue">
+    <h1>Reservation Request</h1>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>
+                General Information
+            </legend>
+            <label for="Arrival Date">Arrival Date</label>
+            <input type="date" name="Arrival Date" id="Arrival Date">
+            <br>
+            <p>Nights:<input type="text" size="20"></p>
+            <br>
+            <label for="Number Of Adults">Select The Number Of Adults</label>
+            <select name="Number Of Adults" id="Number Of Adults">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <br>
+            <label for="Number Of Children">Select The Number Of Children</label>
+            <select name="Children" id="Children">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>
+                    Preferences
+                </legend>
+                <b>Room Type:</b><br>
+               <p><input type="radio">Standard</p>
+               <p><input type="radio">Business</p>
+               <p><input type="radio">Suite</p>
+               <br>
+               <br>
+               <br>
+               <b>Bed Type:</b><br>
+               <p><input type="radio">King</p>
+               <p><input type="radio">Double Double</p>
+               <p><input type="checkbox">Smoking</p>
+               <br>
+               <br>
+               <p>Food Options:<input type="text"></p>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <p>Name:<input type="text"></p>
+                <br>
+                <p>E-Mail:<input type="text"></p>
+                <br>
+                <p>Phone:<input type="text"></p>
+                <br>
+                <p>Password<input type="Password" size="5"></p>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Distance Information
+                </legend>
+                <label for="fuel">Fuel</label>
+                <fuel id="prog" name="prog" max="100" value="70"</fuel>
+                <progress id="prog" name="prog" max="100" value="70"></progress>
+             <input type="Submit" name="Submit" id="Submit">
+            </fieldset>
+    </form>
+</body>
+</html> 
